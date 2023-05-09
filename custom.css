@@ -1,0 +1,74 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+.bg-dark {font-family: 'Josefin Slab', serif;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #89375F !important;
+}
+
+.bg-light { text-align: center;
+    --bs-bg-opacity: 1;
+    background-color: #89375F !important;
+}
+
+
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-image: url(done.png) !important;
+}
+
+h1,h2{ font-size: 300%; font-family: 'Dancing Script', cursive; color: white; }
+p {text-align: center; color: white;font-family: 'Josefin Slab', serif;
+}
+h2 {text-align: center; font-family: 'Dancing Script', cursive; color: black;}
+h3 {font-family: 'Josefin Slab', serif;}
+
+body { text-align: center; background-color: white; color: black;
+    font-family: 'Josefin Slab', serif;}
+
+
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+img {width: 125%;
+height:50%;
+padding: 1rem;}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #black;
+    }
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #black;
+    }
+a:hover, a:focus, a:active { 
+    text-decoration:none; 
+    color: #black;
+    }
+
+.dropdown-menu {
+  background-color: black;
+  color: white;
+}
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+  background-color: gray;
+}
+
+.navbar-brand {height:2%;
+width:8%;}
+
